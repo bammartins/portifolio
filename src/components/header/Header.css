@@ -1,0 +1,35 @@
+.headerBlock{
+    width: 100%;
+    background: #070707;
+    height: 103px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.headerBlock__name{
+    color: #08fdd8;
+    font-size: 40px;
+    margin: 0;
+    height: 100%;
+    vertical-align: middle;
+    padding-top: 7px;   
+}
+
+.headerBlock__name::before{
+    content: '<Bruno-Martins/>';
+    vertical-align: middle;
+}
+
+.headerBlock__name::after{
+    content: '|';
+    animation: blink 1s infinite linear;
+}
+
+@keyframes blink{
+    0%, 50%{
+        color: #08fdd8
+    }
+    51%, 100%{
+        color: transparent;
+    }
+}

@@ -1,0 +1,10 @@
+body{
+  background: #1e1d23;
+}
+
+.content{
+  width: auto;
+  max-width: 60rem;
+  margin: 0 auto;
+  color: #f9f9f9;
+}
